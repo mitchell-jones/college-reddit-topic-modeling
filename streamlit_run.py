@@ -11,6 +11,7 @@ import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 st.title('Using BERTopic for Topic Exporation of Student Discussion on Colleges in the State of North Carolina')
 
