@@ -1,2 +1,2 @@
 # local package
-./src/data/bert_tests
+.college-reddit-topic-modelling/src/data/bert_tests
