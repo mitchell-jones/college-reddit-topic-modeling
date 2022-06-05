@@ -9,5 +9,5 @@ import os
 import pandas as pd
 
 st.title('Using BERTopic for Topic Exporation of Student Discussion on Colleges in the State of North Carolina')
-
-st.write(os.listdir())
+os.chdir('/college-reddit-topic-modelling')
+st.write()
