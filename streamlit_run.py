@@ -14,10 +14,9 @@ selected_college = st.selectbox('Select a college for analysis',
                                 ['NCSU', 'UNCC', 'UNC', 'Duke'])
 
 if selected_college == 'NCSU':
-    df = pd.read_csv(r'https://raw.githubusercontent.com/mitchell-jones/college-reddit-topic-modeling/main/college-reddit-topic-modelling/data/processed/NCSU%20Reddit%20Posts.csv')
+    df = pd.read_csv(r'https://raw.githubusercontent.com/mitchell-jones/college-reddit-topic-modeling/main/data/processed/NCSU%20Reddit%20Posts.csv')
 if selected_college == 'UNCC':
-    df = pd.read_csv(r'https://raw.githubusercontent.com/mitchell-jones/college-reddit-topic-modeling/main/college-reddit-topic-modelling/data/processed/UNCC%20Reddit%20Posts.csv')
-    
+    df = pd.read_csv(r'https://raw.githubusercontent.com/mitchell-jones/college-reddit-topic-modeling/main/data/processed/UNCC%20Reddit%20Posts.csv')
 
 df_1 = remove_punc_stopwords(df, 'title', 'title_cleaned')
 df_1['title_cleaned_lemmatized'] = df_1['title_cleaned'].apply(lemma_sentence)
