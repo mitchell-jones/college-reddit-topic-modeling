@@ -9,6 +9,7 @@ import pandas as pd
 from src.data.bert_tests import remove_punc_stopwords, lemma_sentence, get_topic_model
 import nltk
 nltk.download('stopwords')
+nltk.download('punkt')
 
 st.title('Using BERTopic for Topic Exporation of Student Discussion on Colleges in the State of North Carolina')
 
