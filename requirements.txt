@@ -1,5 +1,6 @@
 # local package
 -e .
+bert_tests
 
 # external requirements
 click
