@@ -9,5 +9,6 @@ import os
 import pandas as pd
 
 st.title('Using BERTopic for Topic Exporation of Student Discussion on Colleges in the State of North Carolina')
-os.chdir('/college-reddit-topic-modelling')
-st.write()
+df = pd.read_csv('https://github.com/mitchell-jones/college-reddit-topic-modeling/blob/main/college-reddit-topic-modelling/data/processed/NCSU%20Reddit%20Posts.csv')
+
+st.write(df)
