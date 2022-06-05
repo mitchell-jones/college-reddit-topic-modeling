@@ -1,2 +1,2 @@
 # local package
-bert_tests
+./src/data/bert_tests
