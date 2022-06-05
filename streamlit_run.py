@@ -10,6 +10,7 @@ from src.data.bert_tests import remove_punc_stopwords, lemma_sentence, get_topic
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('wordnet')
 
 st.title('Using BERTopic for Topic Exporation of Student Discussion on Colleges in the State of North Carolina')
 
