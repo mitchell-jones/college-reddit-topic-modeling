@@ -12,9 +12,10 @@ from nltk.stem import WordNetLemmatizer
 import streamlit as st
 
 # --Hidden Dependencies--
-# import nltk
-# nltk.download('omw-1.4')
-# nltk.download('wordnet')
+import nltk
+nltk.download('omw-1.4')
+nltk.download('wordnet')
+nltk.download('stopwords')
 
 #%% Loading Data
 #df = pd.read_csv(r'C:\Users\Mitchell Gaming PC\OneDrive - Visual Risk IQ, LLC\School Files\Personal Projects\college-reddit-topic-modelling\data\processed\NCSU Reddit Posts.csv')
