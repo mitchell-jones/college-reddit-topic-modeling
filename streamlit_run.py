@@ -10,7 +10,6 @@ from src.data.bert_tests import remove_punc_stopwords, lemma_sentence, get_topic
 
 selected_college = st.sidebar.selectbox('Select a college for analysis',
                                 ['NCSU', 'UNCC', 'UNC', 'Duke'])
-
 #selected_college = 'UNCC'
 
 if selected_college == 'NCSU':
@@ -48,6 +47,7 @@ plot2.update_layout(
 df_1['topic'] = topics[0]
     
 def main_page():
+    st.set_page_config(layout=‘wide’)
     st.markdown("# Main page: Analysis of Discussion on NC-College Subreddits")
     st.markdown('## Selected College: {}'.format(selected_college))
     st.markdown("""
