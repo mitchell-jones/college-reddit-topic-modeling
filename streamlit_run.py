@@ -39,7 +39,7 @@ def plot_topics_overtime(selected_college):
     plot2 = topic_model.visualize_topics_over_time(topics_over_time, top_n_topics=8)
     return plot2
 
-plot2 = plot_topics_overtime()
+plot2 = plot_topics_overtime(selected_college)
 plot2.update_layout(
     title={
         'text': 'Topics over time for {}'.format(selected_college), 
