@@ -47,7 +47,7 @@ plot2.update_layout(
 df_1['topic'] = topics[0]
     
 def main_page():
-    st.set_page_config(layout='wide’)
+    st.set_page_config(layout='wide')
     st.markdown("# Main page: Analysis of Discussion on NC-College Subreddits")
     st.markdown('## Selected College: {}'.format(selected_college))
     st.markdown("""
